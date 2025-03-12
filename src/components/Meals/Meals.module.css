@@ -1,0 +1,35 @@
+.active{
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+    font-size: medium;
+    border-radius:8px;
+    padding: 10px 20px;
+    margin-right:8px;
+}
+.card{
+animation:fade 2s linear;
+}
+
+@keyframes fade{
+    0% {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    25%{
+        opacity: 25%;
+        transform: translateY(-75%);
+    }
+    50%{
+        opacity: 50%;
+        transform: translateY(-50%);
+    }
+    75%{
+        opacity: 75%;
+        transform: translateY(-25%);
+    }
+    100%{
+        opacity: 100%;
+        transform: translateY(0);
+    }
+}

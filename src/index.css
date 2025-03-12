@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@source "../node_modules/flowbite";
+@utility container {
+  margin-inline: auto;
+  padding-inline: 2rem;
+}
+@plugin "flowbite/plugin";
+
+/* Navbar */
+.active{
+ color: orangered; 
+}

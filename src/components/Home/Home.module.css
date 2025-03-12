@@ -1,0 +1,21 @@
+body{
+    background-image: url(../../assets/bg-hero.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    }
+.img{
+animation: rotate 20s linear infinite;
+width: 80%;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
